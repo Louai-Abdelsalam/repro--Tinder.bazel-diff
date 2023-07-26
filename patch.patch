@@ -1,0 +1,26 @@
+diff --git a/project/requirements.in b/project/requirements.in
+index a1436a3..9fb3255 100644
+--- a/project/requirements.in
++++ b/project/requirements.in
+@@ -8,7 +8,7 @@ cffi==1.15.1
+ charset-normalizer==2.0.12 ; python_version >= '3'
+ click==8.1.3 ; python_version >= '3.7'
+ coverage[toml]==7.2.1 ; python_version >= '3.7'
+-cryptography==39.0.2 ; python_version >= '3.6'
++cryptography==41.0.2 ; python_version >= '3.6'
+ docutils==0.15.2 ; python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2, 3.3'
+ exceptiongroup==1.1.0 ; python_version < '3.11'
+ idna==3.4 ; python_version >= '3'
+diff --git a/project/requirements.txt b/project/requirements.txt
+index 8a61cdd..e8744b0 100644
+--- a/project/requirements.txt
++++ b/project/requirements.txt
+@@ -40,7 +40,7 @@ coverage[toml]==7.2.1 ; python_version >= "3.7"
+     # via
+     #   -r requirements.in
+     #   pytest-cov
+-cryptography==39.0.2 ; python_version >= "3.6"
++cryptography==41.0.2 ; python_version >= "3.6"
+     # via
+     #   -r requirements.in
+     #   moto
